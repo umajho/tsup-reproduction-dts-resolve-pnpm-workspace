@@ -6,6 +6,7 @@
   "types": "./foo.ts",
   "exports": {
     "./foo": "./foo.ts",
-    "./bar-that-imports-foo": "./bar-that-imports-foo.ts"
+    "./bar-that-imports-foo": "./bar-that-imports-foo.ts",
+    ".": "./bar-that-imports-foo.ts"
   }
 }

@@ -6,7 +6,8 @@
   "scripts": {
     "build-foo-dts-resolve": "tsup --config tsup.foo-dts-resolve.config.ts",
     "build-bar-dts-true": "tsup --config tsup.bar-dts-true.config.ts",
-    "build-bar-dts-resolve": "tsup --config tsup.bar-dts-resolve.config.ts"
+    "build-bar-dts-resolve": "tsup --config tsup.bar-dts-resolve.config.ts",
+    "build-bar-using-main-dts-resolve": "tsup --config tsup.bar-using-main-dts-resolve.config.ts"
   },
   "devDependencies": {
     "@tsup-reproduction-dts-resolve-pnpm-workspace/support-lib": "workspace:*",
