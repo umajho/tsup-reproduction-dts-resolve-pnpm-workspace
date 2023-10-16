@@ -1,0 +1,11 @@
+{
+  "packageManager": "pnpm@8.6.1",
+  "name": "@tsup-reproduction-dts-resolve-pnpm-workspace/support-lib",
+  "version": "1.0.0",
+  "type": "module",
+  "types": "./foo.ts",
+  "exports": {
+    "./foo": "./foo.ts",
+    "./bar-that-imports-foo": "./bar-that-imports-foo.ts"
+  }
+}
